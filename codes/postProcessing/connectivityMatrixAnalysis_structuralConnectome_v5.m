@@ -185,14 +185,13 @@ nMAP6Mice = 6;
 minScaleBar = 0;
 maxScaleBar = 1;
 
-saveFigures = 0;
+saveFigures = 1;
 regValue = 1e-1;
 
 analyzeReducedMatrix = 1;
 posToErasePathStr = 9; % Last subject ("/Mouse-12")
 
 
-nLinesSubPlots = 2;
 
 %% 1 WT mouse with different cutoffs - Option -scale_invnodevol -zero_diagonal and -symmetric
 close all
@@ -1521,61 +1520,6 @@ end
 % ------------------------------------------------
 %%
 
-% List regions that have significant p values
-
-%XXX
-
-subplot(3,3,7)
-imshow(corrMatrixPValue,[])
-colormap 'jet'
-c = colorbar;
-c.FontSize = 10;
-caxis([0 0.05])
-axis on
-ax = gca;
-ax.FontSize = ticksFontSize; 
-xticks(ticksArray)
-xticklabels(ticksLabels)
-xtickangle(90)
-yticks(ticksArray)
-yticklabels(ticksLabels)
-title(["Symmetry analysis - p-value matrix (lim. p=0.05)","Left side vs Right side"],'FontSize',12)
-
-subplot(3,3,8)
-imshow(corrMatrixPValue,[])
-colormap 'jet'
-c = colorbar;
-c.FontSize = 10;
-caxis([0 0.01])
-axis on
-ax = gca;
-ax.FontSize = ticksFontSize; 
-xticks(ticksArray)
-xticklabels(ticksLabels)
-xtickangle(90)
-yticks(ticksArray)
-yticklabels(ticksLabels)
-title(["Symmetry analysis - p-value matrix (lim. p=0.01)","Left side vs Right side"],'FontSize',12)
-
-subplot(3,3,9)
-imshow(corrMatrixPValue,[])
-colormap 'jet'
-c = colorbar;
-c.FontSize = 10;
-caxis([0 0.001])
-axis on
-ax = gca;
-ax.FontSize = ticksFontSize; 
-xticks(ticksArray)
-xticklabels(ticksLabels)
-xtickangle(90)
-yticks(ticksArray)
-yticklabels(ticksLabels)
-title(["Symmetry analysis - p-value matrix (lim. p=0.001)","Left side vs Right side"],'FontSize',12)
-
-
-%%
-
 %atlasTest = niftiread("/data_network/summer_projects/alvesrod/Share/2023_mouse-dMRI/postProcessing/tractographyConnectome/20230603_022151_MRtrix-output_studyWt-MAP6Mice_allMice_6wt-6hetMAP6/Mouse-1/registeredAtlas_continuousLabels.nii");
 %idxArray = zeros(227,1);
 
@@ -1583,4 +1527,3 @@ title(["Symmetry analysis - p-value matrix (lim. p=0.001)","Left side vs Right s
 %[idxTest] = find(atlasTest==idxVer);
 %idxArray(idxVer) = sum(idxTest(:));
 %end
-
