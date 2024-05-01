@@ -2,7 +2,7 @@
 Anatomical connectivity of WT and MAP6+/- mice
 
 Datasets are available at:
-https://drive.google.com/drive/folders/1EgOF60Ztq9i9BVTA-QJTB5m-UwkX21b5?usp=sharing
+https://drive.google.com/drive/folders/1ys6jBq6seYx4QbQ0C5H5aWRyxMMTbory?usp=sharing
 
 
 
