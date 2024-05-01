@@ -2,6 +2,6 @@
 Anatomical connectivity of WT and MAP6+/- mice
 
 Postprocessing outcomes are available at::
-https://drive.google.com/drive/folders/1EjSMP7wtVBwApvK0ec6JVJ1i0STeU940?usp=sharing
+https://drive.google.com/drive/folders/1ys6jBq6seYx4QbQ0C5H5aWRyxMMTbory?usp=sharing
 
 
