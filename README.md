@@ -10,6 +10,6 @@ Atlases and templates are available at:
 https://drive.google.com/drive/folders/1Vs_KOz1OPBunSvwGKS4KQrRSzQQjT3_v?usp=sharing
 
 Postprocessing outcomes are available at::
-https://drive.google.com/drive/folders/1ys6jBq6seYx4QbQ0C5H5aWRyxMMTbory?usp=sharing
+https://drive.google.com/drive/folders/1vn07QqlBwproSE3GOVRFxmcSvKR4ukmS?usp=sharing
 
 
